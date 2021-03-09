@@ -1,10 +1,10 @@
 <template>
-  <div id="suitable-lessons">全部课程</div>
+  <div id="failed-courses">不及格课程</div>
 </template>
 
 <script>
 export default {
-  name: "AllLesson",
+  name: "FailedCourse",
   props: {
     options: {
       type: Object,
